@@ -1,0 +1,15 @@
+Comandos para criação no terminal: 
+
+Cria o Vite no projeto.
+npm create vite@latest
+
+Instala os pacotes restantes
+npm install ou npm i
+
+Executa o projeto
+npm run dev
+
+Pacotes a serem instalados: 
+Fontawesome - Icones, estilização e etc.
+npm i react-router-dom - Permite criar rotas de páginas.
+npm i axios - Requisições para API. (Alternativa ao Fetch nativo)

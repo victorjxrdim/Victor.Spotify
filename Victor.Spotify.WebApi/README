@@ -1,0 +1,10 @@
+Comandos para criação no terminal: 
+
+Instalar o Express: 
+npm install express
+
+Instalar o MongoDb: 
+npm install mongodb
+
+Instalar o Cors: 
+npm install cors
