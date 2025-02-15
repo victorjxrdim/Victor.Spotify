@@ -1,3 +1,3 @@
-import { artistArray } from "../../../api/request.js";
+import { artistArray } from "../../../service/request.js";
 
 export { artistArray };

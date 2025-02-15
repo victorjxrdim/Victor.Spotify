@@ -3,21 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCirclePlay, faBackwardStep, faForwardStep, faCirclePause } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 import { useRef, useState, useEffect } from "react";
-
-const formatTime = (timeInSeconds) => {
-    const minutes = Math.floor(timeInSeconds / 60).toString().padStart(2, '0');
-    const seconds = Math.floor(timeInSeconds - minutes * 60).toString().padStart(2, '0');
-
-    return `${minutes}:${seconds}`;
-}
-
-const timeInSeconds = (timeString) => {
-  const splitArray = timeString.split(':');
-  const minutes = Number(splitArray[0]);
-  const seconds = Number(splitArray[1]);
-
-  return seconds + minutes * 60;
-}
+import { timeInSeconds, formatTime } from "../../utils/playerComponent";
 
 const Player = ( {
   songToPlay,

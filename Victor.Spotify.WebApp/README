@@ -13,3 +13,13 @@ Pacotes a serem instalados:
 Fontawesome - Icones, estilização e etc.
 npm i react-router-dom - Permite criar rotas de páginas.
 npm i axios - Requisições para API. (Alternativa ao Fetch nativo)
+
+Extensões utilizadas: 
+
+Prettier - Code Formatter - Formatador
+One Monokai Theme - Tema do VSCode
+Live Server
+Image Preview
+ES7+ - MAIS IMPORTANTE DE TODAS!!
+Auto Rename Tag
+Better Comments
